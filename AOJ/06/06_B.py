@@ -5,7 +5,7 @@ cards = []
 for _ in range(n):
     suit, num = input().split()
     num = int(num)
-    cards.append(suit, num)
+    cards.append((suit, num))
 for card in all_cards:
     if card not in cards:
         print(*card)
