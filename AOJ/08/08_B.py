@@ -6,4 +6,4 @@ while True:
     count = 0
     for n in str_x:
         count += int(n)
-        print(count)
+    print(count)
